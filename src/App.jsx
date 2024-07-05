@@ -4,7 +4,7 @@ import Phaser from 'phaser';
 import { PhaserGame } from './game/PhaserGame';
 
 setupIonicReact();
-
+// Test
 function App ()
 {
     // The sprite can only be moved in the MainMenu Scene
