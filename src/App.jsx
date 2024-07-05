@@ -1,7 +1,9 @@
 import { useRef, useState } from 'react';
-
+import { setupIonicReact } from '@ionic/react';
 import Phaser from 'phaser';
 import { PhaserGame } from './game/PhaserGame';
+
+setupIonicReact();
 
 function App ()
 {
